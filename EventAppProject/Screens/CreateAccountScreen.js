@@ -1,7 +1,7 @@
 import React from 'react';
 import {Text, View} from 'react-native';
-import Buttons from './Buttons';
-import CreateAccount from './CreateAccount';
+import Buttons from '../Components/Buttons';
+import CreateAccount from '../Components/CreateAccount';
 
 export default function CreateAccountScreen({navigation}) {
 	return(

@@ -2,12 +2,12 @@ import 'react-native-gesture-handler';
 import * as React from 'react';
 import {NavigationContainer} from '@react-navigation/native';
 import {createStackNavigator} from '@react-navigation/stack';
-import LoginScreen from './LoginScreen';
-import CreateAccountScreen from './CreateAccountScreen';
-import HomeScreen from './HomeScreen';
-import CreateEventScreen from './CreateEventScreen';
-import AccountScreen from './AccountScreen';
-import Event from './Event';
+import LoginScreen from '../Screens/LoginScreen';
+import CreateAccountScreen from '../Screens/CreateAccountScreen';
+import HomeScreen from '../Screens/HomeScreen';
+import CreateEventScreen from '../Screens/CreateEventScreen';
+import AccountScreen from '../Screens/AccountScreen';
+import Event from '../Components/Event';
 
 const Stack = createStackNavigator();
 

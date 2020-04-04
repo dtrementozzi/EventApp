@@ -2,10 +2,10 @@ import React from 'react';
 import {Text, View, TextInput, StyleSheet} from 'react-native';
 import {AsyncStorage} from 'react-native';
 import ImagePicker from 'react-native-image-picker';
-import Buttons from './Buttons';
-import {db} from './Firebase';
-import Firebase from './Firebase';
-import SelectImage from './SelectImage';
+import Buttons from '../Components/Buttons';
+import {db} from '../config/Firebase';
+import Firebase from '../config/Firebase';
+import SelectImage from '../Components/SelectImage';
 
 
 export default class CreateEvent extends React.Component {

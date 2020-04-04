@@ -1,7 +1,7 @@
 import React from 'react';
 import {Text, View, StyleSheet} from 'react-native';
-import Buttons from './Buttons';
-import Firebase from './Firebase';
+import Buttons from '../Components/Buttons';
+import Firebase from '../config/Firebase';
 
 export default function AccountScreen({navigation}) {
 

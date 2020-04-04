@@ -1,7 +1,7 @@
 import React from 'react';
 import {Text, View, StyleSheet} from 'react-native';
-import Buttons from './Buttons';
-import ShowImage from './ShowImage';
+import Buttons from '../Components/Buttons';
+import ShowImage from '../Components/ShowImage';
 
 export default function Event ({route, navigation}) {
 

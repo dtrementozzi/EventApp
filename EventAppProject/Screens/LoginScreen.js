@@ -1,7 +1,7 @@
 import React from 'react';
 import {Text, View} from 'react-native';
-import Buttons from './Buttons';
-import Login from './Login';
+import Buttons from '../Components/Buttons';
+import Login from '../Components/Login';
 
 export default function LoginScreen({navigation}) {
 	return(

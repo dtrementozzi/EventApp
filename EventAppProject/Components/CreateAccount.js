@@ -1,7 +1,7 @@
 import React from 'react';
 import {TextInput, View} from 'react-native';
-import Buttons from './Buttons';
-import Firebase from './Firebase';
+import Buttons from '../Components/Buttons';
+import Firebase from '../config/Firebase';
 
 export default class CreateAccount extends React.Component {
 	constructor(props) {

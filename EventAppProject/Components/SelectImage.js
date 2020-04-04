@@ -1,7 +1,7 @@
 import React from 'react';
 import {Image, Text, StyleSheet} from 'react-native';
 //import RNFetchBlob from 'react-native-fetch-bloc';
-import Firebase from './Firebase';
+import Firebase from '../config/Firebase';
 
 /*const Blob = RNFetchBlob.polyfill.Blob
 const fs = RNFetchBlob.fs

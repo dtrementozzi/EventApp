@@ -1,7 +1,7 @@
 import React from 'react';
 import {Text, View, FlatList, StyleSheet} from 'react-native';
-import Buttons from './Buttons';
-import Home from './Home';
+import Buttons from '../Components/Buttons';
+import Home from '../Components/Home';
 
 export default function HomeScreen({navigation}) {
 	return(

@@ -1,9 +1,9 @@
 import React from 'react';
 import {Text, View, FlatList, StyleSheet} from 'react-native';
 import {AsyncStorage} from 'react-native';
-import Buttons from './Buttons';
-import {db} from './Firebase';
-import List from './List';
+import Buttons from '../Components/Buttons';
+import {db} from '../config/Firebase';
+import List from '../Components/List';
 import {YellowBox} from 'react-native';
 
 let itemsRef = db.ref('items');

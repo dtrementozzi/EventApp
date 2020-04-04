@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { View, Text, StyleSheet, FlatList, TouchableOpacity, Image} from 'react-native';
-import Buttons from './Buttons';
-import ShowImage from './ShowImage';
+import Buttons from '../Components/Buttons';
+import ShowImage from '../Components/ShowImage';
 import PropTypes from 'prop-types';
 
 export default class List extends React.Component {

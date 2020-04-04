@@ -1,7 +1,7 @@
 import React from 'react';
 import {Text, View, TextInput, StyleSheet} from 'react-native';
-import CreateEvent from './CreateEvent';
-import Buttons from './Buttons';
+import CreateEvent from '../Components/CreateEvent';
+import Buttons from '../Components/Buttons';
 
 export default function CreateEventScreen({navigation}) {
 	return(
